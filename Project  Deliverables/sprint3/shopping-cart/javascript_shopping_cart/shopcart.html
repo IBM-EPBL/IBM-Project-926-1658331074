@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style_cart.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  <center><h1>Shopping cart</h1></center>
+  </head>
+  <body>
+
+  
+
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+<div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">PURCHASE</button>
+        </div>
+      </div>
+</div>
+      
+<!--   end of cart modal -->
+  <div class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </div>
+<!--  products  -->
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="./img/product_img1.jpg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">₹599</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="./img/product_img2.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">₹369</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="./img/product_img3.jpg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">₹318</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="./img/product_img4.jpg" alt="">
+         <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">₹399</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="./img/product_img5.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">₹427</span>
+    </div>
+	<div class="card-6 card">
+      <img class="product-image" src="./img/product_img6.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">₹810</span>
+    </div>
+	<div class="card-7 card">
+      <img class="product-image" src="./img/product_img7.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">₹361</span>
+    </div>
+	<div class="card-8 card">
+      <img class="product-image" src="./img/product_img8.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">₹399</span>
+    </div>
+		<div class="card-9 card">
+      <img class="product-image" src="./img/product_img9.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">₹251</span>
+    </div>
+  </div>  
+     
+ </main>
+ <script  src="./js/cartjs.js"></script>
+  </body>
+</html>
